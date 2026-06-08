@@ -9,8 +9,12 @@ padding: 16px;
 main {
 background-color: #FFFFFF;
 color: #183C63;
+display: flex;
 }
 img {
 width: 250px;
 height: 250px;
+}
+.artigo-autor {
+font-weight: bold;
 }
