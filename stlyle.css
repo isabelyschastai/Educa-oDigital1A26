@@ -17,4 +17,29 @@ height: 250px;
 }
 .artigo-autor {
 font-weight: bold;
+
+main {
+    background-color: #09e477;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+main img {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+h2,
+p,
+button {
+    margin-bottom: 12px;
 }
