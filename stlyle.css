@@ -15,9 +15,9 @@ img {
 width: 250px;
 height: 250px;
 }
-.artigo-autor 
+.artigo-autor  {
 font-weight: bold;
-
+}
 main {
     background-color: #09b1e4;
     color: #000000;
