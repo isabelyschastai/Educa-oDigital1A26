@@ -12,7 +12,7 @@ color: #183C63;
 display: flex;
 }
 img {
-width: 80px;
+width: 250px;
 height: 250px;
 }
 .artigo-autor {
@@ -21,25 +21,17 @@ font-weight: bold;
 main {
     background-color: #09b1e4;
     color: #000000;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
+  max-width: 800px;
+margin: 0 auto;
+padding: 16px;
 }
-
-article {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
+  article{
+ display:flex;
+        }
+img {
+width: 80px;
+height: 80px;
 }
-
-main img {
-    width: 80px;
-    height: 80px;
-    display: block;
-}
-
-h2,
-p,
-button {
-    margin-bottom: 12px;
+.artigo-autor {
+font-weight: bold;
 }
