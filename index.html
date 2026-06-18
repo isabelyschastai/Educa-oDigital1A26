@@ -32,3 +32,47 @@ texto.textContent++;
 }
 </script>
 </html>
+  <img src="imagem1.jpg" alt="Imagem criada pelo google>
+
+            <div>
+                <h2>Meu segundo post</h2>
+
+                <p class="artigo-autor">
+                    Por: Isabely Schastai
+                </p>
+
+                <p>
+                    Neste post vou compartilhar mais conteúdos sobre HTML, CSS
+                    e JavaScript para quem está começando na programação.
+                </p>
+
+                <button>🗿 <span>0</span></button>
+                <button>🫡 <span>0</span></button>
+            </div>
+        </article>
+
+    </main>
+
+    <script>
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function (botao) {
+            let curtiu = false;
+
+            botao.addEventListener("click", botaoClicado);
+
+            function botaoClicado() {
+                let texto = botao.querySelector("span");
+
+                if (curtiu === false) {
+                    texto.textContent++;
+                    curtiu = true;
+                } else {
+                    texto.textContent--;
+                    curtiu = false;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
