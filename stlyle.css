@@ -7,7 +7,7 @@ margin: 0 auto;
 padding: 16px;
 }
 main {
-background-color: #218881;
+background-color: #6ea7a3;
 color: #183C63;
 display: flex;
 }
@@ -15,7 +15,7 @@ img {
 width: 250px;
 height: 250px;
 }
-.artigo-autor {
+.artigo-autor 
 font-weight: bold;
 
 main {
