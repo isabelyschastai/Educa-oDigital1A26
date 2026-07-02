@@ -26,7 +26,7 @@ margin: 0 auto;
 padding: 16px;
 }
   article{
- display
+ display:flex
         }
 img {
 width: 80px;
