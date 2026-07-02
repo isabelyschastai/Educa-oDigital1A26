@@ -7,8 +7,8 @@ margin: 0 auto;
 padding: 16px;
 }
 main {
-    background-color:  #ff0099;
-    color: #183C63;
+    background-color:  #fda0ea;
+    color: #fa009f;
     display: flex;
 }
 img {
@@ -19,7 +19,7 @@ height: 250px;
 font-weight: bold;
 }
 main {
-    background-color: #ff0099;
+    background-color: #fda0ea;
     color: #000000;
   max-width: 800px;
 margin: 0 auto;
