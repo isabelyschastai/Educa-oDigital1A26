@@ -5,28 +5,21 @@
     --cor-branco: #ffffff;
 }
 
-.tema-escuro {
-    --cor-primaria: #4a0035;
-    --cor-fundo: #151428;
-    --cor-texto: #ffffff;
-    --cor-branco: #f3eef7;
-}
-
 body {
     max-width: 100vw;
 }
 
 header {
-   background-color: var(--cor-primaria);
-color: var(--cor-branco);
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
     text-align: center;
     margin: 0 auto;
     padding: 16px;
 }
 
 main {
-   background-color: var(--cor-fundo);
-color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     margin: 0 auto;
     padding: 16px;
     display: flex;
@@ -40,9 +33,7 @@ article {
     padding: 16px;
     border: 1px solid var(--cor-texto);
     border-radius: 10px;
-
     flex: 1 1 25%;
-
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -58,3 +49,4 @@ main img {
 .artigo-autor {
     font-weight: bold;
 }
+
