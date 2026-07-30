@@ -1,18 +1,32 @@
+:root {
+    --cor-primaria: rgb(243, 0, 141);
+    --cor-fundo: #fda0ea;
+    --cor-texto: #fa009f;
+    --cor-branco: #ffffff;
+}
+
+.tema-escuro {
+    --cor-primaria: #4a0035;
+    --cor-fundo: #151428;
+    --cor-texto: #ffffff;
+    --cor-branco: #f3eef7;
+}
+
 body {
     max-width: 100vw;
 }
 
 header {
-    background-color: rgb(243, 0, 141);
-    color: #ffffff;
+   background-color: var(--cor-primaria);
+color: var(--cor-branco);
     text-align: center;
     margin: 0 auto;
     padding: 16px;
 }
 
 main {
-    background-color: #fda0ea;
-    color: #fa009f;
+   background-color: var(--cor-fundo);
+color: var(--cor-texto);
     margin: 0 auto;
     padding: 16px;
     display: flex;
@@ -24,7 +38,7 @@ article {
     margin: 16px;
     gap: 16px;
     padding: 16px;
-    border: 1px solid #fa009f;
+    border: 1px solid var(--cor-texto);
     border-radius: 10px;
 
     flex: 1 1 25%;
