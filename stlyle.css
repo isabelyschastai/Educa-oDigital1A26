@@ -20,7 +20,7 @@ padding: 16px;
 
 main {
 background-color: var(--cor-fundo);
-color: #fa009f;
+color: #150c75;
 margin: 0 auto;
 padding: 16px;
 display: flex;
@@ -32,7 +32,7 @@ display: flex;
 margin: 16px;
 gap: 16px;
 padding: 16px;
-border: 1px solid #fa009f;
+border: 1px solid #150c75;
 border-radius: 10px;
 
 flex: 1 1 25%;
